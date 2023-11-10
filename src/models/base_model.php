@@ -51,3 +51,14 @@ function connectionDB(): ?\PDO
 
     return $dbh;
 }
+
+function escapeData(array $data): array
+{
+    $result = [];
+
+    foreach ($data as $value) {
+        $result[] = \htmlspecialchars(\strip_tags(\trim($value)))
+    }
+
+    return $result;
+}
