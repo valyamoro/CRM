@@ -40,7 +40,7 @@ function connectionDB(): ?\PDO
     }
 
     $dbh = new \PDO(
-        'mysql:host=localhost;dbname=blog.loc;charset=utf8mb4',
+        'mysql:host=localhost;dbname=crm.loc;charset=utf8mb4',
         'root',
         '', [
         \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
