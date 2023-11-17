@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  background: url("/public/images/main-page-background-3.avif") center/cover no-repeat;
+  font-family: Roboto;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(101, 192, 215);
+  box-shadow: 0px 5px 5px -6px rgba(0, 0, 0, 0.2);
+}
+
+.lang {
+  margin: 0 64.9%;
+  color: #472682;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+}
+
+.ru-icon {
+  width: 32px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.iconru {
+  width: 32px;
+  height: 16px;
+  flex-shrink: 0;
+  margin: auto 0;
+  margin-left: 10px;
+  background: url("/public/icons/RU.png"), lightgray 50%/cover no-repeat;
+}
+
+.flex-cont {
+  display: flex;
+  width: 500px;
+}
+
+.phone-number {
+  color: #472682;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  height: 1px;
+  margin-left: 50px;
+}
+
+.main {
+  margin: 100px auto;
+  width: 90%;
+}
+
+.head-regist {
+  padding-top: 120px;
+  margin-right: 200px;
+  display: flex;
+  position: relative;
+  bottom: -100%;
+  animation: slideIn 1.3s ease-out forwards;
+}
+
+.desc-1 {
+  position: relative;
+  bottom: -100%;
+  animation: slideIn 1.3s ease-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    bottom: -100%;
+  }
+  to {
+    bottom: 0;
+  }
+}
+.registration {
+  position: relative;
+  bottom: -100%;
+  animation: slideInReg 1.3s ease-out forwards;
+}
+
+@keyframes slideInReg {
+  from {
+    bottom: -100%;
+  }
+  to {
+    bottom: 0;
+  }
+}
+.head-regist h1 {
+  padding-left: 20px;
+  font-size: 93px;
+  color: #02c6f9;
+  margin: auto 0;
+}
+
+.registration {
+  display: flex;
+}
+
+.registration .desc-1 {
+  margin-left: 20px;
+  font-size: 20px;
+  color: #0099c0;
+}
+
+.user-form {
+  border-radius: 45px;
+  background-color: rgb(248, 255, 255);
+  width: 500px;
+  box-shadow: 2px 2px 17px rgba(0, 0, 0, 0.253);
+}
+
+.user-form h1 {
+  padding-top: 60px;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+input {
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.4196078431);
+  width: 260px;
+  outline: none;
+  padding-left: 10px;
+  height: 28px;
+  transition: all 0.3s ease;
+}
+
+input:hover {
+  border: 2px solid #02c6f9;
+}
+
+.user-form p {
+  color: rgb(99, 167, 235);
+  margin: 0;
+}
+
+.input-email {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.send-btn {
+  width: 270px;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: #02c6f9;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 128px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.send-btn:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid gray;
+}
+
+.user-form h3 {
+  color: #0099c0;
+  padding-top: 30px;
+  font-size: 14px;
+  margin: 0 auto;
+  width: 50%;
+}/*# sourceMappingURL=registration.css.map */
